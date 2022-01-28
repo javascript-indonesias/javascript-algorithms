@@ -22,6 +22,7 @@ _Читать на других языках:_
 [_Bahasa Indonesia_](README.id-ID.md),
 [_Українська_](README.uk-UA.md),
 [_Arabic_](README.ar-AR.md),
+[_Tiếng Việt_](README.vi-VN.md),
 [_Deutsch_](README.de-DE.md)
 
 *☝ Замечание: этот репозиторий предназначен для учебно-исследовательских целей (**не** для использования в продакшн-системах).*
@@ -36,7 +37,7 @@ _Читать на других языках:_
 * `B` [Двунаправленный связный список](src/data-structures/doubly-linked-list)
 * `B` [Очередь](src/data-structures/queue)
 * `B` [Стек](src/data-structures/stack)
-* `B` [Хеш-табица](src/data-structures/hash-table)
+* `B` [Хеш-таблица](src/data-structures/hash-table)
 * `B` [Куча](src/data-structures/heap) — максимальная и минимальная версии
 * `B` [Очередь с приоритетом](src/data-structures/priority-queue)
 * `A` [Префиксное дерево](src/data-structures/trie)
