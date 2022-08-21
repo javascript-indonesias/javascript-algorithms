@@ -1,5 +1,10 @@
 # JavaScript Algorithms and Data Structures
 
+> 🇺🇦 UKRAINE [IS BEING ATTACKED](https://twitter.com/MFA_Ukraine) BY RUSSIAN ARMY. CIVILIANS ARE GETTING KILLED. RESIDENTIAL AREAS ARE GETTING BOMBED.
+> - Help Ukraine via [National Bank of Ukraine](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)
+> - Help Ukraine via [SaveLife](https://savelife.in.ua/en/donate-en/) fund
+> - More info on [war.ukraine.ua](https://war.ukraine.ua/)
+
 [![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
@@ -207,6 +212,7 @@ algorithm is an abstraction higher than a computer program.
   * `B` [Best Time To Buy Sell Stocks](src/algorithms/uncategorized/best-time-to-buy-sell-stocks) - divide and conquer and one-pass examples
   * `A` [Permutations](src/algorithms/sets/permutations) (with and without repetitions)
   * `A` [Combinations](src/algorithms/sets/combinations) (with and without repetitions)
+  * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray)
 * **Dynamic Programming** - build up a solution using previously found sub-solutions
   * `B` [Fibonacci Number](src/algorithms/math/fibonacci)
   * `B` [Jump Game](src/algorithms/uncategorized/jump-game)
@@ -277,6 +283,8 @@ In case if linting or testing is failing try to delete the `node_modules` folder
 rm -rf ./node_modules
 npm i
 ```
+
+Also make sure that you're using a correct Node version (`>=14.16.0`). If you're using [nvm](https://github.com/nvm-sh/nvm) for Node version management you may run `nvm use` from the root folder of the project and the correct version will be picked up.
 
 **Playground**
 
